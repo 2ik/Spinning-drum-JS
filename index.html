@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Бандит</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<style>
+		body{
+			background-color: #272727;
+		}
+	</style>
+</head>
+<body>
+	<div class="modal" id="modal__bandit">
+	  <div class="bandit">
+		<div class="bandit__body">
+			<div class="bandit__body--meter">
+				<div class="meter__count">0</div><span>%</span>
+			</div>
+		</div>
+		<div class="bandit__circle"></div>
+		<div class="bandit__hand"></div>
+		<div class="bandit__finish animated" id="bandit__finish">
+			<strong class="bandit__finish--title">ПОЗДРАВЛЯЕМ!</strong>
+			<p class="bandit__finish--text">Оставьте Ваш номер телефона и мы активируем данную скидку.</p>
+			<form action="" class="bandit__form">
+				<input type="text" name="f_phone" class="valid_phone_mask" placeholder="Ваш телефон" />
+				<button type="button">ОТПРАВИТЬ</button>
+			</form>
+		</div>
+	</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
