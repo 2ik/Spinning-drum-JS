@@ -93,7 +93,6 @@
 			el.classList.remove('fadeInDown');
 			let percent = random.getRandomInt(min, max);
 			el.textContent = percent;
-			//banditFormPercent.value = `Клиент выиграл скидку ${percent}% на Электрокамин пристенный Capri Crystal 18 крем`;
 			i++;
 		}, 150);
 	}
