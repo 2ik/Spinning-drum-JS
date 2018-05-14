@@ -3,10 +3,10 @@
 	var banditHand = document.querySelector('.bandit__hand'),
 		banditCircle = document.querySelector('.bandit__circle'),
 		meterCount = document.querySelector('.meter__count'),
-		banditFinish = document.querySelector('.bandit__finish');
-		banditFinishTitle = document.querySelector('.bandit__finish--title');
-		banditFinishText = document.querySelector('.bandit__finish--text');
-		banditFormPercent = document.querySelector('.bandit form input[name="tema"]');
+		banditFinish = document.querySelector('.bandit__finish'),
+		banditFinishTitle = document.querySelector('.bandit__finish--title'),
+		banditFinishText = document.querySelector('.bandit__finish--text'),
+		banditFormPercent = document.querySelector('.bandit form input[name="tema"]'),
 		overStepFive = false;
 
 	/* run automat */
